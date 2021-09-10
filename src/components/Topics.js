@@ -230,7 +230,7 @@ class Topics extends Component {
                             <span hidden={this.state.toastmaster === ""}>
                                 <Tooltip aria-label="tt" placement="bottom-start" title={
                                     <React.Fragment><h2 color="inherit">Go to Table topic</h2></React.Fragment>}>
-                                    <IconButton style={{ color: "royalblue", }} fontSize="large">
+                                    <IconButton style={{ color: "#d5212e", }} fontSize="large">
                                         <ArrowForwardIcon onClick={() => this.getTopic()} /></IconButton>
                                 </Tooltip></span></h1>
                         <h2 style={{ color: "#d5212e", fontFamily: "Arial" }}>Selected TM {this.state.toastmaster}</h2>
